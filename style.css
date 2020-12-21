@@ -179,8 +179,10 @@ form .form-items {
     display: flex;
     flex-direction: column; 
     margin: 5px;
-    padding: 10px;
+    padding: 10px 90px 10px 10px;
     background-color: #fafafa;
+    border: 1px solid lightgray;
+    border-radius: 3px;
 }
 
 form button {
@@ -202,9 +204,7 @@ form .instagram-cadastro {
 
 .termos {
     color: #8e8e8e;
-    color: rgba(var(--f52,142,142,142),1);
     font-size: 12px;
-    line-height: 16px;
     margin: 10px 40px;
     text-align: center;
 }
