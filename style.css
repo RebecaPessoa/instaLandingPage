@@ -83,6 +83,14 @@ body {
     border-radius: 4px;
 }
 
+.instagram-login-face {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px 50px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
@@ -127,6 +135,86 @@ body {
 .app-download:nth-child(2) {
     background-image: url('./img/google-play.png');
 }
+
+/* ----------------------Inscreva-se-----------------------*/
+h2 {
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 20px 40px;
+    text-align: center; 
+}
+
+h3 {
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 20px 40px 5px;
+    text-align: center; 
+
+}
+
+form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+form fieldset {
+    margin-top: 0;
+    border: 0;
+}
+
+form input {
+    border: 0;
+    font-size: 12px;
+}
+
+form .form-items {
+    
+    display: flex;
+    flex-direction: column; 
+    margin: 5px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+form button {
+    border: 0;
+    transition: background-color 400ms;
+}
+
+form button:hover {
+    background-color: #0095f6;
+}
+
+form .instagram-cadastro {
+    background-color: #b2dffc;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.termos {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.termos a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+/*-------------------------Fim Inscreva-se------------------------*/
 
 /* Media Queries */
 
