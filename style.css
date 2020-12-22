@@ -147,16 +147,6 @@ h2 {
     text-align: center; 
 }
 
-.ou-inscreva-se{
-    color: #8e8e8e;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 20px;
-    margin: 20px 40px 5px;
-    text-align: center; 
-
-}
-
 form {
     margin: 10px;
     display: flex;
@@ -215,6 +205,22 @@ form .instagram-cadastro {
     font-weight: bold;
     color: #8e8e8e;
 }
+/* OU entre linhas contínuas */
+h3.ou-inscreva-se { 
+    width: 72%; 
+    text-align: center; 
+    border-bottom: 1px solid darkgray; 
+    line-height: 0.1em;
+    margin: 25px 50px 10px; 
+ } 
+ 
+ h3.ou-inscreva-se span { 
+     color: darkgray;
+     background:#fff; 
+     padding:0 15px; 
+     font-size: 12px;
+     
+ }
 /*-------------------------Alternar Contas-----------------------*/
 
 form .instagram-entrar {
@@ -225,15 +231,24 @@ form .instagram-entrar {
     border-radius: 4px;
     font-weight: bold;
 }
-.ou-alternar{
-    color: #8e8e8e;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 20px;
-    margin: 0 40px 30px;
-    text-align: center; 
 
-}
+/* OU entre linhas contínuas */
+h3.ou-alternar { 
+    width: 83%; 
+    text-align: center; 
+    border-bottom: 1px solid darkgray; 
+    line-height: 0.1em;
+    margin: 10px 50px 40px; 
+ } 
+ 
+ h3.ou-alternar span { 
+     color: darkgray;
+     background:#fff; 
+     padding:0 15px; 
+     font-size: 12px;
+     
+ }
+
 .entrar-com-facebook {
     display:flex;
     align-items: center;
@@ -245,7 +260,7 @@ form .instagram-entrar {
     padding-left: 5px;
 }
 
- .esqueceu-senha {
+.esqueceu-senha {
     margin-top: 20px;
     font-size: 12px;
     color: #385185;
