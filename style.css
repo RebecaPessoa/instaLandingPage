@@ -162,6 +162,7 @@ form input {
     border: 0;
     font-size: 12px;
     background-color: #fafafa;
+    outline: 0;
 }
 
 form .form-items {
@@ -270,7 +271,6 @@ h3.ou-alternar {
     font-size: 14px;
     font-weight: bold;
 }
-
 
 /* Media Queries */
 
